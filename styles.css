@@ -1,0 +1,103 @@
+html {
+    font-size: 20px;
+    color: #4e4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+main {
+    max-width: 25rem;
+    margin: 1rem auto;
+    background: linear-gradient(30deg, #3dc0c0,#5bceae);
+    padding: 1.5rem 0.8rem 3rem 0.8rem;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 2px lightgrey;
+}
+
+h1 {
+   text-align: center;
+   font-size: 1.5rem;
+   margin: 0;
+   padding-bottom: 1.5rem;
+}
+
+section {
+   background: white;
+   font-size: 0.9rem;
+   margin-bottom: 0.8rem;
+   padding: 0 0.8rem;
+   border-radius: 0.5rem;
+   box-shadow: inset 5px 5px 2px lightgrey;
+}
+
+section > div {
+    padding: 0.8rem 0;
+}
+
+.clientName {
+    display: flex;
+}
+
+.clientName label {
+    flex: 1;
+    align-self: center;
+}
+
+.clientName input {
+    flex: 3;
+}
+
+input[type="number"] {
+    font-family: inherit;
+    background: #f4f4f5;
+    font-size: 0.8rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.25rem;
+    padding: 0.4rem 0 0.4rem 0.8rem;
+    box-shadow: inset 3px 3px 2px lightgrey;
+
+}
+
+.space-between {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.total {
+   font-size: 1rem;
+   font-weight: bolder;
+
+}
+
+.range{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #eee;
+    margin-top: 0.6rem;
+    border-radius: 0.15rem;
+    outline-color: #5bceae;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    background-color: #5bceae;
+    cursor: pointer;
+
+}
+.range::-moz-range-thumb {
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    background-color: #5bceae;
+    cursor: pointer;
+    border: none;
+}
+
+.range::-moz-focus-outer {
+     border: 0;
+}
